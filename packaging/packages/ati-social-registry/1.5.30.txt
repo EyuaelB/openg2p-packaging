@@ -1,0 +1,11 @@
+#!openg2p/openg2p-social-registry-ati:1.5.30
+#!17.0-20250807
+#!(^account_.*$)|(^attachment_indexation$)|(^auth_ldap$)|(^barcodes.*$)|(^base_address_extended$)|(^base_automation$)|(^base_geolocalize$)|(^base_iban$)|(^base_vat$)|(^board$)|(^calendar.*$)|(^crm.*$)|(^data_recycle$)|(^delivery.*$)|(^event.*$)|(^fleet$)|(^gamification.*$)|(^graphql_demo$)|(^hr$)|(^hr_appraisal$)|(^hr_attendance$)|(^hr_contract$)|(^hr_expense$)|(^hr_fleet$)|(^hr_gamification$)|(^hr_holidays$)|(^hr_holidays_attendance$)|(^hr_homeworking$)|(^hr_hourly_cost$)|(^hr_livechat$)|(^hr_maintenance$)|(^hr_org_chart$)|(^hr_presence$)|(^hr_recruitment$)|(^hr_recruitment_skills$)|(^hr_recruitment_sms$)|(^hr_recruitment_survey$)|(^hr_skills$)|(^hr_skills_slides$)|(^hr_skills_survey$)|(^hr_timesheet$)|(^hr_timesheet_attendance$)|(^hr_work_entry$)|(^hr_work_entry_holidays$)|(^hw_drivers$)|(^hw_escpos$)|(^hw_posbox_homepage$)|(^iap_.*$)|(^im_livechat$)|(^im_livechat_mail_bot$)|(^l10n_.*$)|(^link_tracker$)|(^loyalty$)|(^lunch$)|(^maintenance$)|(^mail_bot_hr$)|(^mail_group$)|(^mass_mailing.*$)|(^mail_plugin$)|(^membership$)|(^microsoft_.*$)|(^mrp.*$)|(^partner_autocomplete$)|(^payment.*$)|(^point_of_sale$)|(^portal_rating$)|(^pos.*$)|(^privacy_lookup$)|(^project.*$)|(^product_.*$)|(^purchase.*$)|(^rating$)|(^repair$)|(^sale.*$)|(^sales_team$)|(^smile_audit$)|(^sms$)|(^snailmail.*$)|(^spreadsheet.*$)|(^stock_.*$)|(^survey$)|(^test.*$)|(^theme_default$)|(^theme_.*$)|(^transifex$)|(^web_hierarchy$)
+
+# OCA dependencies
+oca = git://v1.2.5//https://github.com/openg2p/openg2p-social-registry-community-addons
+
+# OpenG2P developed modules
+openg2p_registry = git://v1.5.9//https://github.com/openg2p/openg2p-registry
+openg2p_social_registry = git://v1.5.8//https://github.com/openg2p/openg2p-social-registry
+openg2p_ati = git://v1.5.30//https://${OPENG2P_BOT_GITHUB_PAT}@github.com/openg2p/openg2p-ati
